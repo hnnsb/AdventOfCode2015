@@ -3,7 +3,7 @@ IF ["%1"]==[""] GOTO ERROR
 
 :CREATE 
 MKDIR day%1
-COPY "templates\template2.py" "day%1\day%1.py"
+COPY "templates\template3.py" "day%1\day%1.py"
 set num=%1
 set num=%num:0=%
 
